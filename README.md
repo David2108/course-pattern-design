@@ -15,7 +15,11 @@ Los patrones creacionales son patrones de diseño que se enfocan en mecanismos d
 #### Builder
 
 - Es un patrón de diseño creacional que nos permite construir objetos complejos paso a paso.
-
 - El patrón nos permite producir distintos tipos y representaciones de un objeto empleando el mismo código de construcción.
-
 - Es útil cuando necesitamos construir un objeto complejo con muchas partes y queremos que el proceso de construcción sea independiente de las partes que lo componen.
+
+#### Factory Method
+
+- El patrón Factory Method permite crear objetos sin especificar la clase exacta del objeto que se creará.
+- En lugar de eso, delegamos la creación de objetos a subclases o métodos que encapsulan esta lógica.
+- Es útil cuando una clase no puede anticipar la clase de objetos que debe crear.
