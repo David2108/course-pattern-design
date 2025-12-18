@@ -80,7 +80,7 @@
     class HotelRoomCleaning extends RoomCleaning {
       // TODO: Implementar método específico
       // Mensaje: 'Haciendo las camas y reponiendo artículos de baño.'
-      protected specificCleaning(): void {
+      override specificCleaning(): void {
         console.log('Haciendo las camas y reponiendo artículos de baño.');
       }
     }
@@ -89,7 +89,7 @@
     class ConferenceRoomCleaning extends RoomCleaning {
       // TODO: Implementar método específico
       // Mensaje: 'Limpiando mesas y organizando sillas.'
-      protected specificCleaning(): void {
+      override specificCleaning(): void {
         console.log('Limpiando mesas y organizando sillas.');
       }
     }
@@ -98,7 +98,7 @@
     class OfficeCleaning extends RoomCleaning {
       // TODO: Implementar método específico
       // Mensaje: 'Limpiando escritorios y organizando documentos.'
-      protected specificCleaning(): void {
+      override specificCleaning(): void {
         console.log('Limpiando escritorios y organizando documentos.');
       }
     }
